@@ -20,5 +20,5 @@ from principal import views
 urlpatterns = [
     path(r'^admin/', admin.site.urls),
     path('',include('principal.urls')),
-    path('shopping',include('principal.urls')),
+    path('shop/',include('principal.urls')),
 ]
